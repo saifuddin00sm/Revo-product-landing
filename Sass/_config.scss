@@ -1,0 +1,28 @@
+$bg-dark-blue: #0b0433;
+$light-border-blue: #5a547c;
+$input-bg: #3a3458;
+$white_color: #fff;
+$primary_color: #3dcac8;
+$secondary_color: #3a3458;
+// Buttons
+%mainBtn {
+    color: $white_color;
+    padding: 2.5rem 4.9rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $primary_color;
+    height: 3.25rem;
+    border: 1px solid $primary_color;
+    border-radius: 32px;
+    color: $white_color;
+    font-weight: 600;
+    font-size: 1.475rem;
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover {
+        background-color: $bg-dark-blue;
+        color: $primary_color;
+    }
+}
